@@ -1,0 +1,23 @@
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --color-accent: #7c5cff;
+    --animate-marquee: marquee 25s linear infinite;
+
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-950 text-zinc-200 font-sans antialiased;
+}
