@@ -50,6 +50,15 @@ export default function Hero() {
           >
             Hire Me
           </a>
+
+          <a
+  href="/resume.pdf"
+  target="_blank"
+  rel="noreferrer"
+  className="px-6 py-3 rounded-lg border border-zinc-700 hover:border-zinc-500 transition"
+>
+  Resume
+</a>
         </motion.div>
 
         <motion.div {...fadeUp(0.5)} className="flex justify-center gap-6 mt-10 text-2xl text-zinc-400">

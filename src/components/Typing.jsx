@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const words = ['AI-powered apps', 'full-stack products', 'fast dashboards', 'clean landing pages']
+const words = ['AI-powered web apps', 'full-stack products', 'fast dashboards', 'clean landing pages']
 
 export default function Typing() {
   const [text, setText] = useState('')
